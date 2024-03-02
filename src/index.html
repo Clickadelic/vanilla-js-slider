@@ -4,7 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Vanilla JS Slider</title>
+	<link rel="stylesheet" href="./vanilla-js-slider.css">
 </head>
 
 <body>
@@ -12,46 +13,47 @@
 		<div class="history-body">
 			<div class="slider-images">
 				<ul class="list-slider-images">
-					<li class="slide-image current-slide" style="left: 0px;"><img decoding="async" src=".jpg"
-							class="img-fluid" alt="Alt text">
+					<li class="slide-image current-slide">
+						<img src="./Color-Splash.jpg" class="img-fluid" alt="Alt text">
 					</li>
-
 				</ul>
 			</div>
-			{{/* <div class="slider-content">
-				<div class="arrow-navigation"><button class="btn-slider btn-prev d-none"><svg
-							xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+			<div class="slider-content">
+				<div class="arrow-navigation">
+					<button class="btn-slider btn-prev d-none">
+						<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
 							class="bi bi-chevron-left" viewBox="0 0 16 16">
 							<path fill-rule="evenodd"
 								d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z">
 							</path>
-						</svg></button><button class="btn-slider btn-next"><svg xmlns="http://www.w3.org/2000/svg"
-							width="1em" height="1em" fill="currentColor" class="bi bi-chevron-right"
-							viewBox="0 0 16 16">
+						</svg>
+					</button>
+					<button class="btn-slider btn-next">
+						<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+							class="bi bi-chevron-right" viewBox="0 0 16 16">
 							<path fill-rule="evenodd"
 								d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
 							</path>
-						</svg></button></div>
+						</svg>
+					</button>
+				</div>
 				<div class="history-items">
 					<ul class="list-slider-content">
-						<li class="slide-content current-slide" style="opacity: 1;">
+						<li class="slide-content current-slide">
 							<h3 class="slide-title">1973 – Gründung des Unternehmens als Familienbetrieb</h3>
 							<p class="slide-text mb-0">Heinrich Gundlach gründet das Unternehmen 1973 als
 								Garagenbetrieb.
 							</p>
-							<p></p>
 						</li>
 					</ul>
 				</div>
-				<div class="dot-navigation"><button class="dot-nav current-slide"></button><button
-						class="dot-nav"></button><button class="dot-nav"></button><button
-						class="dot-nav"></button><button class="dot-nav"></button><button
-						class="dot-nav"></button><button class="dot-nav"></button><button
-						class="dot-nav"></button><button class="dot-nav"></button><button
-						class="dot-nav"></button><button class="dot-nav"></button></div>
-			</div> */}}
+				<div class="dot-navigation">
+					<button class="dot-nav current-slide"></button>
+				</div>
+			</div>
 		</div>
 	</div>
+	<script src="./vanilla-js-slider.js" defer></script>
 </body>
 
 </html>
